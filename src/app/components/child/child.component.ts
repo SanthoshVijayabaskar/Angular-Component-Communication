@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Message } from '@angular/compiler/src/i18n/i18n_ast';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -8,7 +7,7 @@ import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 })
 export class ChildComponent implements OnInit {
 
-  childMessage = 'Child Message';
+  childMessage = 'Hello from Child';
 
   constructor() { }
 
