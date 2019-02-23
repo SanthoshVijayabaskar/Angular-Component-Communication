@@ -4,6 +4,12 @@
   height: 500px;
 }
 
+#second-parent {
+  background-color: rgb(34, 211, 135);
+  width: 500px;
+  height: 500px;
+}
+
 #child {
   padding: 40px 10px 40px 40px;
 }
