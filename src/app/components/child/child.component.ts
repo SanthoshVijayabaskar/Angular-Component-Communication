@@ -8,7 +8,7 @@ import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 })
 export class ChildComponent implements OnInit {
 
-  @Input() childMessage: string;
+  childMessage = 'Child Message';
 
   constructor() { }
 
